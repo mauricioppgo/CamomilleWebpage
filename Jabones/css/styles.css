@@ -1,0 +1,201 @@
+/*-----------------------------------------------------------------------mau--------------------------------------------------------------*/
+
+/*´´´´´´´´´´´´´´´´´´´´´´´´´´
+        ¿Qué es?
+´´´´´´´´´´´´´´´´´´´´´´´´´´´´*/
+.img{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.que-es{
+    background-color: rgba(172, 145, 96, 0.52);
+}
+.lorofan p{
+    font-size: 24px;
+}
+.h3{
+    font-size: 30px;
+}
+/*##########################
+       Descargar APP
+###########################*/
+#segunda{
+    width: 25%;
+}
+#primera{
+    width: 21%;
+}
+/*//////////////////////////
+        GH APPS
+//////////////////////////*/
+.apps{
+    background: rgba(47, 85, 100, 0.81);
+}
+#empresa{
+    width: 20%;
+}
+#texto{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+#avena {
+    width: 74%;
+}
+#neutro {
+    width: %;
+    align-content: center
+}
+.productos {
+    align-content: center;
+}
+/*··························
+        Carousel
+···························*/
+.bd-example{
+    background: #00773f;
+}
+.w10{
+    padding-bottom: 9rem;
+    width: 40rem;
+}
+.contacto{
+    background: url("../images/contacto.png") no-repeat;
+    padding: 8rem;
+    background-size: 100% 100%;
+}
+
+
+/*--------------------------------------------------------------------------------MARLENE--------------------------------------------------------------------------*/
+
+
+/*=======================
+        PORTADA
+=======================*/
+html {
+    font-size: 15px;
+}
+.bienvenidos {
+    background: url("../images/fondo.png") no-repeat center top;  
+    color: #000000;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+.encabezado {
+    background: rgb(53, 53, 53);
+    color: #fff;
+    padding: .5rem 0;
+}
+.encabezado .logo img {
+    width: 50px;
+    height: auto;
+    align-items: left;
+}
+.texto-encabezado {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+}
+.texto-encabezado p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    position: relative;
+}
+.display-4{
+    text-align: center;
+    position: relative;
+    color: white;
+    font-size: 90px;
+}
+.container {
+    margin-top: auto;
+}
+#loro{
+    color: white;
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;   
+    padding-left: .5rem;
+    position: relative;
+}
+/*Flecha para bajar*/
+.flecha-bajar a {
+    display: inline-block;
+    color: #fff;
+    font-size: 4rem;
+    position: relative;
+    -webkit-animation: flecha-animada 2s ease-in-out infinite;
+            animation: flecha-animada 2s ease-in-out infinite; 
+}
+@keyframes flecha-animada {
+    from {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(6px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+/*==========================
+        Pie de página
+==========================*/
+.piedepagina {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-size: .9rem;
+}
+.piedepagina .redes-sociales {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.piedepagina .redes-sociales a {
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 0 .9rem;
+    opacity: .6;
+    transition: all .4s ease;
+}
+
+/*Para cambiar el color cuando pasa el cursor por la flecha de subir*/
+
+.piedepagina .redes-sociales a:hover {
+    opacity: 1;
+}
+.ir-arriba {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    color: #ffb300;
+    text-decoration: none;
+    z-index: 99999;
+    line-height: 0;
+    transition: all .4s ease;
+}
+.ir-arriba:hover,
+.ir-arriba:focus {
+    text-decoration: none;
+    color: rgba(44, 195, 25, 0.8);
+}
+
+
+
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
